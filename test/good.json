@@ -1,0 +1,9 @@
+{
+  "once_upon_a_time": {
+    "a_nested_map": [
+      "Had An Array!",
+      "With mixed types ZOMG",
+      9000
+    ]
+  }
+}
