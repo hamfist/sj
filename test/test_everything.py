@@ -1,9 +1,13 @@
-import unittest
+# vim:fileencoding=utf-8
 import os
-
-import sj
+import sys
+import unittest
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+
+sys.path.insert(0, os.path.dirname(HERE))
+
+import sj
 
 
 class Everything(unittest.TestCase):
