@@ -1,0 +1,6 @@
+#!/bin/bash
+
+exec py.test -v \
+  --cov-report term-missing \
+  --cov sj \
+  --pep8
