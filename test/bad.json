@@ -1,6 +1,8 @@
 {
   "FizzBuzz": 45,
   "ham": {
-    "boneSoup": ["whatever_else"]
+    "boneSoup": ["whatever_else"],
+    "X": "nope",
+    "0xBEEF": "why would that happen"
   }
 }

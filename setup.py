@@ -54,7 +54,8 @@ setup(
         'Operating System :: POSIX :: Linux',
         'Operating System :: POSIX :: SunOS/Solaris',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.3',
+        # FIXME: ijson is currently hosed on Python 3
+        # 'Programming Language :: Python :: 3.3',
         'Topic :: System :: Systems Administration',
         'Topic :: Utilities',
     ],
