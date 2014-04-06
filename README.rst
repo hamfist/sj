@@ -1,9 +1,10 @@
 sj
 ==
 
-.. image:: https://travis-ci.org/snakeyjson/sj.svg?branch=master
+.. image:: https://travis-ci.org/snakeyjson/sj.png?branch=master
     :target: https://travis-ci.org/snakeyjson/sj
-.. image:: https://badge.fury.io/py/sj.svg
+
+.. image:: https://badge.fury.io/py/sj.png
     :target: http://badge.fury.io/py/sj
 
 Enforcer of snakey JSON.
