@@ -1,6 +1,11 @@
 sj
 ==
 
+.. image:: https://travis-ci.org/snakeyjson/sj.svg?branch=master
+    :target: https://travis-ci.org/snakeyjson/sj
+.. image:: https://badge.fury.io/py/sj.svg
+    :target: http://badge.fury.io/py/sj
+
 Enforcer of snakey JSON.
 
 Installation
