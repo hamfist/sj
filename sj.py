@@ -26,7 +26,7 @@ def yield_offenders(stream, matcher=KEY_RE):
 
 
 def main(sysargs=sys.argv[:], stream=sys.stdin):
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(version=__version__)
     parser.add_argument(
         '-q', '--quiet', help='exit code only', action='store_true'
     )
