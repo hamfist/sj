@@ -40,6 +40,7 @@ setup(
     long_description=get_long_description(),
     version=get_version(),
     packages=find_packages(),
+    py_modules=['sj'],
     platforms=['any'],
     classifiers=[
         'Development Status :: 4 - Beta',

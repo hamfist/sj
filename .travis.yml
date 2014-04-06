@@ -1,3 +1,12 @@
 ---
 language: python
 script: ./runtests
+deploy:
+  provider: pypi
+  user: meatballhat
+  password:
+    secure: OLkQYWpZXFl2ykWcrAK8nJQntqxXD1XjtxJxkNJXu/9m4MxZ6jtPfW+PWEfdLwP1sYhgpiXf27e52Bba/ttOvJCxfMJHWZbepPgBmnDXNrqhARU7bNgXtXyWZp7n4OcBiIZxufTCS0r2GbcqNDEvVR7dyUvdIYu9KEcnTONVM9g=
+  on:
+    tags: true
+    branch: master
+    repo: snakeyjson/sj
