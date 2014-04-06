@@ -16,6 +16,10 @@ class Everything(unittest.TestCase):
         with open(os.path.join(HERE, 'good.json')) as stream:
             assert 0 == sj.main([], stream)
 
+    def test_also_good_json_is_also_good(self):
+        with open(os.path.join(HERE, 'also-good.json')) as stream:
+            assert 0 == sj.main([], stream)
+
     def test_bad_json_is_bad(self):
         with open(os.path.join(HERE, 'bad.json')) as stream:
             assert 1 == sj.main([], stream)

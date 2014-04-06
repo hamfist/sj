@@ -1,0 +1,15 @@
+{
+  "objects_anywhere": {
+    "have": "Single word keys",
+    "and_also": "Multi word keys",
+    "and_dont_forget": [
+      "---> Values! <---",
+      "CanHave",
+      "theNuttiest",
+      "strings-you-can",
+      "IMAGINE"
+    ],
+    "0xbeef": "is fine, too",
+    "_____0r_ev3n_th15_ins4nity": "yup whatever"
+  }
+}
