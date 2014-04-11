@@ -35,8 +35,11 @@ def test_bad_json_is_bad(capsys):
     with open_json('bad') as stream:
         assert 1 == sj.main(['sj'], stream)
 
-    _, err = capsys.readouterr()
-    assert err.strip() != ''
+    err = capsys.readouterr()[1].strip().splitlines(False)
+    assert '"FizzBuzz" is not snakey!' in err
+    assert '"ham.boneSoup" is not snakey!' in err
+    assert '"ham.X" is not snakey!' in err
+    assert '"ham.0xBEEF." is not snakey!' in err
 
 
 def test_bad_json_is_bad_but_quiet(capsys):

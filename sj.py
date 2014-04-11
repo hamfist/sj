@@ -12,7 +12,7 @@ import sys
 
 import ijson
 
-KEY_RE = re.compile('^[\\.a-z0-9_]+$')
+KEY_RE = re.compile('^[a-z0-9_][\\.a-z0-9_]*[a-z0-9_]*$')
 
 
 def yield_offenders(stream, matcher=KEY_RE):
