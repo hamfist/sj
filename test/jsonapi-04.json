@@ -1,0 +1,13 @@
+{
+  "posts": [{
+    "id": "1",
+    "title": "Rails is Omakase",
+    "links": {
+      "author": {
+        "href": "http://example.com/people/17",
+        "id": "17",
+        "type": "people"
+      }
+    }
+  }]
+}

@@ -1,0 +1,3 @@
+[
+  { "op": "replace", "path": "/photos/0/src", "value": "http://example.com/hamster.png" }
+]

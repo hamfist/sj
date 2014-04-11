@@ -1,0 +1,3 @@
+[
+  { "op": "add", "path": "/photos/0/links/comments/-", "value": "30" }
+]

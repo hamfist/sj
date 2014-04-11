@@ -1,0 +1,3 @@
+[
+  { "op": "replace", "path": "/photos/0/links/author", "value": "2" }
+]

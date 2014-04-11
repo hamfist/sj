@@ -1,0 +1,14 @@
+{
+  "links": {
+    "photos.author": "http://example.com/people/{photos.author}"
+  },
+  "photos": [{
+    "id": "1",
+    "href": "http://example.com/photos/1",
+    "title": "Hamster",
+    "src": "images/hamster.png",
+    "links": {
+      "author": "1"
+    }
+  }]
+}

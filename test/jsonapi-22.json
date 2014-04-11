@@ -1,0 +1,14 @@
+{
+  "links": {
+    "photos.comments": "http://example.com/comments/{photos.comments}"
+  },
+  "photos": [{
+    "id": "1",
+    "href": "http://example.com/photos/1",
+    "title": "Hamster",
+    "src": "images/hamster.png",
+    "links": {
+      "comments": [ "1", "5", "12", "17" ]
+    }
+  }]
+}
