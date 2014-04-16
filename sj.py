@@ -4,7 +4,7 @@
 """
 from __future__ import print_function
 
-__version__ = '0.1.3'
+__version__ = '0.2.0'
 
 import argparse
 import re
@@ -12,7 +12,7 @@ import sys
 
 import ijson
 
-KEY_RE = re.compile('^[a-z0-9_]+$')
+KEY_RE = re.compile('^[a-z0-9_][\\.a-z0-9_]*[a-z0-9_]*$')
 
 
 def yield_offenders(stream, matcher=KEY_RE):

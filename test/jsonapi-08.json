@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "One Type Purr Author",
+      "links": {
+        "authors": [
+          {
+            "href": "http://example.com/people/9",
+            "id": "9",
+            "type": "people"
+          },
+          {
+            "href": "http://example.com/cats/1",
+            "id": "1",
+            "type": "cats"
+          }
+        ]
+      }
+    }
+  ]
+}

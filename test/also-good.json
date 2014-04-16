@@ -1,15 +1,32 @@
 {
-  "objects_anywhere": {
-    "have": "Single word keys",
-    "and_also": "Multi word keys",
-    "and_dont_forget": [
-      "---> Values! <---",
-      "CanHave",
-      "theNuttiest",
-      "strings-you-can",
-      "IMAGINE"
-    ],
-    "0xbeef": "is fine, too",
-    "_____0r_ev3n_th15_ins4nity": "yup whatever"
+  "floppy_hats": [
+    {
+      "objects_anywhere": {
+        "have": "Single word keys",
+        "and_also": "Multi word keys",
+        "and_dont_forget": [
+          "---&gt; Values! &lt;---",
+          "CanHave",
+          "theNuttiest",
+          "strings-you-can",
+          "IMAGINE"
+        ],
+        "0xbeef": "is fine, too",
+        "_____0r_ev3n_th15_ins4nity": "yup whatever",
+        "links": {
+          "reviews": [
+            "99",
+            "12",
+            "994"
+          ]
+        }
+      }
+    }
+  ],
+  "links": {
+    "floppy_hats.reviews": {
+      "href": "http://example.com/reviews/{floppy_hats.reviews}",
+      "type": "reviews"
+    }
   }
 }
