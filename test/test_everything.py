@@ -2,11 +2,10 @@
 import os
 import sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-
-sys.path.insert(0, os.path.dirname(HERE))
-
 import sj
+
+
+HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def open_json(namebase):
