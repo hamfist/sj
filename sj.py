@@ -10,7 +10,7 @@ import sys
 
 import ijson
 
-__version__ = '0.2.0'
+__version__ = '0.2.1'
 
 KEY_RE = re.compile('^[a-z0-9_][\\.a-z0-9_]*[a-z0-9_]*$')
 
