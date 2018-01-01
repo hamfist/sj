@@ -35,7 +35,7 @@ setup(
     author_email='dan@meatballhat.com',
     license='MIT',
     keywords='snakey json',
-    url='https://github.com/snakeyjson/sj',
+    url='https://github.com/hamfist/sj',
     description='Enforcer of snakey JSON',
     long_description=get_long_description(),
     version=get_version(),

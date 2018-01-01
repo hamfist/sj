@@ -1,8 +1,8 @@
 sj
 ==
 
-.. image:: https://travis-ci.org/snakeyjson/sj.png?branch=master
-    :target: https://travis-ci.org/snakeyjson/sj
+.. image:: https://travis-ci.org/hamfist/sj.png?branch=master
+    :target: https://travis-ci.org/hamfist/sj
 
 .. image:: https://badge.fury.io/py/sj.png
     :target: http://badge.fury.io/py/sj
@@ -19,7 +19,7 @@ With pip::
 
 With curl (separate install of ``ijson`` required)::
 
-    curl -sLO https://raw.githubusercontent.com/snakeyjson/sj/master/sj.py
+    curl -sLO https://raw.githubusercontent.com/hamfist/sj/master/sj.py
     mv sj.py ~/bin/sj
     chmod +x ~/bin/sj
 
